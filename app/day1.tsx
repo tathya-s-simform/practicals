@@ -1,9 +1,9 @@
 import React, { useMemo, useState } from "react";
 import { Button, StyleSheet, Text, TextInput, View } from "react-native";
-import { MAX_MARKS } from "../constants/constants";
-import { fieldType, StudentDetails } from "../types/types";
-import { calculateResult } from "../utils/calculateResult";
-import { validateDetails } from "../utils/validateDetails";
+import { MAX_MARKS } from "../src/constants/constants";
+import { fieldType, StudentDetails } from "../src/types/types";
+import { calculateResult } from "../src/utils/calculateResult";
+import { validateDetails } from "../src/utils/validateDetails";
 
 const initialDetails: StudentDetails = {
   name: "",
