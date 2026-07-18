@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Alert, Button, StyleSheet, Text, TextInput, View } from "react-native";
 
-const Day5 = () => {
+const OtpHandler = () => {
   const INITIAL_DATA = new Array(6).fill("");
   const [otp, setOtp] = useState<string[]>(INITIAL_DATA);
   const [time, setTime] = useState(30);
@@ -95,7 +95,7 @@ const Day5 = () => {
   );
 };
 
-export default Day5;
+export default OtpHandler;
 
 const styles = StyleSheet.create({
   container: {

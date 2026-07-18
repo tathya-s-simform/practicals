@@ -43,7 +43,7 @@ export const initialTime: TimeType = {
   seconds: "00",
   miliSeconds: "00",
 };
-const Day2 = () => {
+const Stopwatch = () => {
   const [time, setTime] = useState<TimeType>(initialTime);
   const [isStarted, setIsStarted] = useState(false);
   const [lapTime, setLapTime] = useState<TimeType[]>([]);
@@ -134,7 +134,7 @@ const Day2 = () => {
   );
 };
 
-export default Day2;
+export default Stopwatch;
 
 const styles = StyleSheet.create({
   container: {

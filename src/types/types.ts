@@ -13,3 +13,15 @@ export type StudentDetails = {
   };
   export type errorType = Partial<StudentDetails>;
   export type fieldType = { field: keyof StudentDetails; placeholder: string }[];
+export type ContactType={
+ id: string;
+ firstName: string;
+ lastName: string;
+ isFavorite: boolean;
+ gender: string;
+ phoneNumber:string
+}
+export type SectionDataType = {
+  title: string;
+  data: ContactType[];
+};

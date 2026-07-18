@@ -61,7 +61,7 @@ function calculateSchedule(
   return schedule;
 }
 
-export default function Day0() {
+export default function EmiCalculator() {
   const [loanDetails, setLoanDetails] = useState<LoanDetails>({
     loanAmount: "",
     interestRate: "",

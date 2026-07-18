@@ -3,7 +3,7 @@ import React, { useCallback, useRef, useState } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 export type DataType = string[][];
 export type ResultType = "X" | "O" | "Tie";
-const Day4 = () => {
+const TicTacToe = () => {
   const DATA: DataType = Array.from({ length: 3 }, () => new Array(3).fill(""));
   const [data, setData] = useState(DATA);
   const [isXTurn, setIsXTurn] = useState(false);
@@ -188,7 +188,7 @@ const Day4 = () => {
   );
 };
 
-export default Day4;
+export default TicTacToe;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
