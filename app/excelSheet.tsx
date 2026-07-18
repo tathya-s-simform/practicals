@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { StyleSheet, Text, TextInput, View } from "react-native";
 
-const Day3 = () => {
+const ExcelSheet = () => {
   const NUM_ROWS = 3;
   const NUM_COLS = 3;
   type DataType = number[][];
@@ -85,7 +85,7 @@ const Day3 = () => {
   );
 };
 
-export default Day3;
+export default ExcelSheet;
 const styles = StyleSheet.create({
   container: {
     flex: 1,

@@ -29,7 +29,7 @@ const fields: fieldType = [
     placeholder: "Enter maths score",
   },
 ];
-const Day1 = () => {
+const StudentResult = () => {
   const [details, setDetails] = useState<StudentDetails>(initialDetails);
   const [firstTime, setFirstTime] = useState(true);
   const error = useMemo(
@@ -81,7 +81,7 @@ const Day1 = () => {
   );
 };
 
-export default Day1;
+export default StudentResult;
 export const styles = StyleSheet.create({
   input: {
     margin: 10,

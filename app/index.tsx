@@ -6,40 +6,33 @@ const Index = () => {
   return (
     <View style={styles.outer}>
       <View style={styles.container}>
-        <View style={styles.card}>
-          <Pressable onPress={() => router.navigate("/day0")}>
+          <Pressable style={styles.card} onPress={() => router.navigate("/emiCalculator")}>
             <Text style={styles.text}>EMI Calculator</Text>
           </Pressable>
-        </View>
-        <View style={styles.card}>
-          <Pressable onPress={() => router.navigate("/day1")}>
+          <Pressable style={styles.card} onPress={() => router.navigate("/studentResult")}>
             <Text style={styles.text}>Student Result</Text>
           </Pressable>
-        </View>
       </View>
       <View style={styles.container}>
-        <View style={styles.card}>
-          <Pressable onPress={() => router.navigate("/day2")}>
+          <Pressable style={styles.card} onPress={() => router.navigate("/stopwatch")}>
             <Text style={styles.text}>Stopwatch</Text>
           </Pressable>
-        </View>
-        <View style={styles.card}>
-          <Pressable onPress={() => router.navigate("/day3")}>
+          <Pressable style={styles.card} onPress={() => router.navigate("/excelSheet")}>
             <Text style={styles.text}>Spreadsheet</Text>
           </Pressable>
-        </View>
       </View>
       <View style={styles.container}>
-        <View style={styles.card}>
-          <Pressable onPress={() => router.navigate("/day4")}>
+          <Pressable style={styles.card} onPress={() => router.navigate("/ticTacToe")}>
             <Text style={styles.text}>Tic-Tac-Toe</Text>
           </Pressable>
-        </View>
-        <View style={styles.card}>
-          <Pressable onPress={() => router.navigate("/day5")}>
+          <Pressable style={styles.card} onPress={() => router.navigate("/otpHandler")}>
             <Text style={styles.text}>OTP Handler</Text>
           </Pressable>
-        </View>
+      </View>      
+      <View style={styles.container}>
+          <Pressable style={styles.card} onPress={() => router.navigate("/contacts")}>
+            <Text style={styles.text}>Contacts</Text>
+          </Pressable>
       </View>
     </View>
   );
@@ -48,7 +41,7 @@ const Index = () => {
 export default Index;
 const styles = StyleSheet.create({
   outer: {
-    flex: 1,
+  flex: 1,
     justifyContent: "flex-start",
   },
   container: {
