@@ -33,6 +33,9 @@ const Index = () => {
           <Pressable style={styles.card} onPress={() => router.navigate("/contacts")}>
             <Text style={styles.text}>Contacts</Text>
           </Pressable>
+          <Pressable style={styles.card} onPress={() => router.navigate("/userForm")}>
+            <Text style={styles.text}>Multi-Step Form</Text>
+          </Pressable>
       </View>
     </View>
   );
