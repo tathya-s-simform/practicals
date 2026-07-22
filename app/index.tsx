@@ -66,7 +66,13 @@ const Index = () => {
           style={styles.card}
           onPress={() => router.navigate("/salaryCalculator")}
         >
-          <Text style={styles.text}>Salary Calculator</Text>
+          <Text style={styles.text}>Salary Calc.</Text>
+        </Pressable>
+        <Pressable
+          style={styles.card}
+          onPress={() => router.navigate("/cricketScore")}
+        >
+          <Text style={styles.text}>Cricket Score</Text>
         </Pressable>
       </View>
     </View>
